@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>arrow functions examples</title>
+</head>
+<body>
+<script>
+  const csgo_tourney = 'IEM Katowice';
+  const winners = ['Astralis', 'Cloud9', 'NaVi'];
+
+  const win = winners.map((winner, i) => ({name: winner, csgo_tourney, place: i + 1}));
+
+  const ages = [23, 54, 65, 23, 123, 982, 34];
+
+  const old = ages.filter(age => age >=60);
+  console.log(old);
+</script>
+</body>
+</html>
